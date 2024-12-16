@@ -15,16 +15,27 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 input {
     color: white;
     border: none;
+    border-radius: 0;
     font-family: "Quicksand", sans-serif;
+    font-size: 16px;
 }
 
 select {
     font-family: "Quicksand", sans-serif;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+option {
+    background-color: black;
 }
 
 input:focus {
